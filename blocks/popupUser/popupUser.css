@@ -1,0 +1,22 @@
+@import url(./__content/popupUser__content.css);
+@import url(./__close/popupUser__close.css);
+@import url(./__title/popupUser__title.css);
+@import url(./__form/popupUser__form.css);
+@import url(./__input/popupUser__input.css);
+@import url(./__button/popupUser__button.css);
+@import url(./_is-opened/popupUser_is-opened.css);
+@import url(./__name/popupUser__name.css);
+@import url(./__helpInfo/popupUser__helpInfo.css);
+
+.popupUser {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}

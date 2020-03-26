@@ -1,0 +1,23 @@
+.user-info__buttonEdit {
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+  width: 50px;
+  height: 20px;
+  font-size: 12px;
+  display: block;
+  cursor: pointer;
+  margin-top: 20px;
+  right: 0;
+}
+
+.user-info__buttonEdit:focus {
+  outline-color: greenyellow;
+}
+
+@media screen and (max-width: 980px) {
+  .user-info__buttonEdit {
+    position: static;
+    margin-bottom: 40px;
+  }
+}

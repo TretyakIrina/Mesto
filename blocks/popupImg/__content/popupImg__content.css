@@ -1,0 +1,16 @@
+.popupImg__content {
+  min-width: 430px;
+  min-height: 330px;
+  max-width: 80vw;
+  max-height: 80vh;
+  background-size:cover;
+  position: relative;
+  box-sizing: border-box;
+  padding: 34px 36px;
+}
+
+@media screen and (max-width: 540px) {
+  .popupImg__content {
+    width: calc(100% - 60px);
+  }
+}

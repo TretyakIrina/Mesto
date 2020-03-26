@@ -1,0 +1,11 @@
+.popupUser__helpInfo {
+  margin-top: 0px;
+  font-size: 10px;
+  color: rgba(255, 0, 0);
+  margin-bottom: 17px;
+  display: none;
+}
+
+.popupUser__helpInfoActive {
+  display: block;
+}
